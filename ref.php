@@ -1,27 +1,49 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
-include "function.php";
+include "x.php";
 echo "\n";
 echo "\n";
-				  echo "\e[91m         Time:".date('[d-m-Y] [H:i:s]')."\n";
-				  echo "\e[92m      ╔══════════════════════════════════╗\n";
-				  echo "\e[92m      ║   SELAMAT DATANG DI MENU GOJEK   ║\n";
-				  echo "\e[92m      ║ AUTO REGISTRASI & REDEEM VOUCHER ║\n";
-				  echo "\e[92m      ║   UNTUK REGISTRASI CALL ADMIN    ║\n";
-				  echo "\e[92m      ║        JAPRI ADMIN @Java186      ║\n";
-				  echo "\e[92m      ╚══════════════════════════════════╝\n";
-                  echo "\e[93m      ╔══════════════════════════════════╗\n";
-                  echo "\e[91m      ║            Terimakasih           ║\n";
-                  echo "\e[91m      ║     THANKS TO JAVABYTECODE       ║\n";
-                  echo "\e[91m      ║          JAVABYTECODE            ║\n";
-                  echo "\e[93m      ╚══════════════════════════════════╝\n";
+// 				  echo "\e[91m         Time:".date('[d-m-Y] [H:i:s]')."\n";
+//                   echo color("green","    __         __                          \n");
+//                   echo color("green","   / /______ _/ /_  ____ ___  ______ _____  \n");
+//                   echo color("green","  / //_/ __ `/ __ \/ __ `/ / / / __ `/ __ \ \n");
+//                   echo color("green"," / ,< / /_/ / /_/ / /_/ / /_/ / /_/ / / / / \n");
+//                   echo color("green","/_/|_|\__,_/_.___/\__,_/\__, /\__,_/_/ /_/  \n");
+//                   echo color("green","                       /____/      \n");
+//                   echo "\e[93m      ╔══════════════════════════════════╗\n";
+//                   echo "\e[91m      ║            Terimakasih           ║\n";
+//                   echo "\e[91m      ║             THANKS TO            ║\n";
+//                   echo "\e[91m      ║          Kabayan Managemen       ║\n";
+//                   echo "\e[93m      ╚══════════════════════════════════╝\n";
 
-	echo "\n";
-echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
-echo color("purple","[•] Time : ".date('[d-m-Y] [H:i:s]')." \n");
-echo color("purple","[•] Prepare..! \n");
-echo color("purple","[•] Masukan Nomor Menggunakan 62xxxxxxxxxx \n");
-echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
+// 	echo "\n";
+// echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
+// echo color("purple","[•] Time : ".date('[d-m-Y] [H:i:s]')." \n");
+// echo color("purple","[•] Prepare..! \n");
+// echo color("purple","[•] Masukan Nomor Menggunakan 62xxxxxxxxxx \n");
+// echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
+
+
+
+echo color("green","    __         __                          \n");
+echo color("green","   / /______ _/ /_  ____ ___  ______ _____  \n");
+echo color("green","  / //_/ __ `/ __ \/ __ `/ / / / __ `/ __ \ \n");
+echo color("green"," / ,< / /_/ / /_/ / /_/ / /_/ / /_/ / / / / \n");
+echo color("green","/_/|_|\__,_/_.___/\__,_/\__, /\__,_/_/ /_/  \n");
+echo color("green","                       /____/      \n");
+echo "\n";
+
+echo "\e[93m      ╔══════════════════════════════════╗\n";
+              echo "\e[91m      ║            Terimakasih           ║\n";
+              echo "\e[91m      ║             THANKS TO            ║\n";
+              echo "\e[91m      ║          Kabayan Managemen       ║\n";
+              echo "\e[93m      ╚══════════════════════════════════╝\n";
+
+
+
+echo color("green","           Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
+echo color("green","                  Format Kode 62*** \n");
+
 function change(){
 $nama = nama();
 $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
